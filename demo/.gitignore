@@ -1,0 +1,25 @@
+# Ignorar logs, arquivos temporários e específicos do SO
+*.log
+*.swp
+.DS_Store
+
+# Maven (Build gerado)
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compilação e Binários
+*.class
+
+# Banco de Dados (arquivos do H2 se usar o modo file-based, ou se usar um DB local)
+*.mv.db
+*.trace.db
